@@ -1,6 +1,17 @@
 const createFeed = (type = 'rss2') => ({
   create (feed) {
     feed.options = feedOptions
+    feed.addItem({
+      title: 'Test Title',
+      id: Math.random().toString(36).substring(2, 10),
+      link: 'https://example.com',
+      description: 'Test Description',
+      content: 'Test Content',
+      extra: {
+        'extraTest': 'extraTest',
+        'extraTest2': 'extraTest2'
+      }
+    })
   },
   type
 })
