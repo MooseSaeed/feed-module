@@ -16,7 +16,7 @@
     "Alexander Lichter <npm@lichter.io>"
   ],
   "main": "lib/module.js",
-  "repository": "nuxt-community/feed-module",
+  "repository": "ryntab/feed-module",
   "publishConfig": {
     "access": "public"
   },
