@@ -33,7 +33,7 @@
   "dependencies": {
     "async-cache": "^1.1.0",
     "consola": "^2.12.1",
-    "feed": "https://github.com/ryntab/feed.git"
+    "@ryntab/feed" : "latest"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
