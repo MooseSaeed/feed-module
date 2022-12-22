@@ -1,5 +1,5 @@
 {
-  "name": "feed-extended",
+  "name": "@ryntab/feed-extended",
   "version": "2.0.0",
   "description": "Feed module enables everyone to have RSS, Atom and Json.",
   "keywords": [
@@ -16,7 +16,10 @@
     "Alexander Lichter <npm@lichter.io>"
   ],
   "main": "lib/module.js",
-  "repository": "ryntab/feed-module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryntab/feed-module.git"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -24,26 +27,35 @@
     "dev": "nuxt test/fixture",
     "generate": "nuxt generate test/fixture",
     "lint": "eslint --ext .js,.vue lib test",
-    "test": "yarn lint && jest",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "files": [
     "lib"
   ],
   "dependencies": {
+    "@nuxt/test-utils": "^3.0.0",
+    "@ryntab/feed": "^4.2.3",
     "async-cache": "^1.1.0",
     "consola": "^2.12.1",
-    "@ryntab/feed" : "latest"
+    "i": "^0.3.7",
+    "npm": "^9.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "@nuxtjs/module-test-utils": "latest",
-    "eslint": "latest",
-    "husky": "latest",
-    "jest": "latest",
-    "nuxt-edge": "latest",
-    "standard-version": "latest"
-  }
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "eslint": "^8.30.0",
+    "husky": "^8.0.2",
+    "jest": "^29.3.1",
+    "nuxt-edge": "^2.16.0-27708500.54e852f"
+  },
+  "bugs": {
+    "url": "https://github.com/ryntab/feed-module/issues"
+  },
+  "homepage": "https://github.com/ryntab/feed-module#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }
