@@ -1,6 +1,6 @@
 {
   "name": "@ryntab/feed-extended",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Feed module enables everyone to have RSS, Atom and Json.",
   "keywords": [
     "nuxtjs",
