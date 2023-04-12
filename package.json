@@ -1,6 +1,6 @@
 {
-  "name": "@ryntab/feed-extended",
-  "version": "2.0.1",
+  "name": "@moosesaeed/smartnews-feed",
+  "version": "1.0.0",
   "description": "Feed module enables everyone to have RSS, Atom and Json.",
   "keywords": [
     "nuxtjs",
@@ -18,44 +18,32 @@
   "main": "lib/module.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryntab/feed-module.git"
+    "url": "git+https://github.com/moosesaeed/feed-module.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "dev": "nuxt test/fixture",
-    "generate": "nuxt generate test/fixture",
-    "lint": "eslint --ext .js,.vue lib test",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "files": [
     "lib"
   ],
   "dependencies": {
-    "@nuxt/test-utils": "^3.0.0",
     "@ryntab/feed": "^4.2.3",
-    "async-cache": "^1.1.0",
-    "consola": "^2.12.1",
-    "i": "^0.3.7",
-    "npm": "^9.2.0"
+    "async-cache": "^1.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "@nuxtjs/eslint-config": "^12.0.0",
-    "eslint": "^8.30.0",
-    "husky": "^8.0.2",
-    "jest": "^29.3.1",
-    "nuxt-edge": "^2.16.0-27708500.54e852f"
+    "husky": "^8.0.2"
   },
   "bugs": {
-    "url": "https://github.com/ryntab/feed-module/issues"
+    "url": "https://github.com/moosesaeed/feed-module/issues"
   },
-  "homepage": "https://github.com/ryntab/feed-module#readme",
+  "homepage": "https://github.com/moosesaeed/feed-module#readme",
   "directories": {
-    "lib": "lib",
-    "test": "test"
+    "lib": "lib"
   },
-  "author": ""
+  "author": "Mostafa said"
 }
