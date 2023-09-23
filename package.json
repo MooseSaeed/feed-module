@@ -1,6 +1,6 @@
 {
   "name": "@moosesaeed/smartnews-feed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Feed module customized for Google Cloud Functions.",
   "keywords": [
     "nuxtjs",
