@@ -27,8 +27,7 @@
     "lib"
   ],
   "dependencies": {
-    "@ryntab/feed": "4.2.3",
-    "async-cache": "^1.1.0"
+    "@ryntab/feed": "4.2.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
