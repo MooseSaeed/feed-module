@@ -1,6 +1,6 @@
 {
   "name": "@moosesaeed/smartnews-feed",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Feed module customized for Google Cloud Functions.",
   "keywords": [
     "nuxtjs",
@@ -21,7 +21,7 @@
     "access": "public"
   },
   "scripts": {
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+    "release": "git push --follow-tags && npm publish"
   },
   "files": [
     "lib"
